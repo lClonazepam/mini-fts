@@ -1,0 +1,1 @@
+# Circuit breaker\n\nA circuit breaker stops calling a failing dependency. After a cooldown it probes in half-open state. This protects thread pools and downstream databases during an outage.\n

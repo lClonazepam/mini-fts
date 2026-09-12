@@ -1,0 +1,1 @@
+# Write ahead log\n\nA write ahead log records every mutation before applying it to the in-memory store. After a crash the process replays the log. Snapshots truncate old records so recovery stays fast.\n

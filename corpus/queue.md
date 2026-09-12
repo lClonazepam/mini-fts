@@ -1,0 +1,1 @@
+# Durable job queue\n\nWorkers lease jobs with a visibility timeout. If a worker dies the lease expires and another worker claims the job. Poison messages go to a dead letter queue after max attempts.\n
